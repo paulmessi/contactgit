@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:padding="20dp" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <EditText
+        android:id="@+id/editTextEmailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPhotoReg"
+        android:layout_marginTop="20dp"
+        android:hint="请输入您需要注册的手机号"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPwdReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmailReg"
+        android:layout_marginTop="20dp"
+        android:hint="请输入您要设置的密码"
+        android:inputType="textPassword" />
+    
+	<EditText
+        android:id="@+id/editTextPwdAgnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPwdReg"
+        android:layout_marginTop="20dp"
+        android:hint="请再次输入您的密码"
+        android:inputType="textPassword" />
+
+    <!--<TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPwdReg"
+        android:layout_marginTop="20dp"
+        android:text="性别："
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGenderReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewGender"
+        android:layout_toRightOf="@+id/textViewGender"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保密" />
+    </RadioGroup>
+
+     <TextView
+        android:id="@+id/textViewInterest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupGenderReg"
+        android:layout_marginTop="20dp"
+        android:text="兴趣："
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInterestFootball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewInterest"
+        android:layout_toRightOf="@+id/textViewInterest"
+        android:text="足球" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInterestBaskterball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewInterest"
+        android:layout_toRightOf="@+id/checkBoxInterestFootball"
+        android:text="篮球" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInterestVolleyball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewInterest"
+        android:layout_toRightOf="@+id/checkBoxInterestBaskterball"
+        android:text="排球" /> -->
+    
+    <Button
+        android:id="@+id/buttonRegisiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPwdAgnReg"
+        android:layout_marginTop="20dp"
+        android:text="注册" />
+
+    <ImageView
+        android:id="@+id/editPhotoReg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#CCC"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:gravity="center" />
+
+</RelativeLayout>
